@@ -66,7 +66,7 @@ class DistrictTableSeeder extends Seeder
             'Balıkesir' => [
                 'Merkez', 'Altıeylül', 'Karesi', 'Ayvalık', 'Bandırma', 'Edremit', 'Erdek', 'Gömeç', 'İvrindi', 'Kepsut', 'Marmara', 'Savaştepe', 'Sındırgı', 'Susurluk'
             ]
-            // Diğer iller için ilçe verilerini aynı şekilde eklemeye devam edebilirsiniz...
+
         ];
         foreach ($cities as $cityName => $cityId) {
             $cityDistricts = $districts[$cityName] ?? [];
